@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="icon" type="image/x-icon" href="Images/logo.png ">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ----Slick-Silder-CSS-Link--- -->
+  <link rel="stylesheet" href="slick.css">
+     <!-- ----SEPERATE CSS FILE------ -->
+     <link rel="stylesheet" href="Catergory.css">
+  
+            
+  
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <title>Gaming-Web/ Categories</title>
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, inherit;
+  }
+  .navbar{
+    background: rgba(0, 0, 0, 0.698);
+  }
+  body{
+    background: url(Images/bg\ img.jpg);
+    background-attachment: fixed;
+
+  }
+  footer{
+    background: rgba(0, 0, 0, 0.850);
+  }
+  .container.text-center.text-md-left {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+/* --for-dropdown-menu--- */
+.dropdown-menu{
+  background: rgba(0, 0, 0, 0.698);
+}
+.dropdown-item{
+  color: #fff ;
+}
+.team{
+  margin-top: 100px;
+  margin: 5px;
+  width: 210px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.698);
+}
+.team:hover{
+  transform: translateY(-10px);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+
+</style>
+
+<body>
+  <!-- <------nav-bar----- -->
+
+
+    
+  
+  <nav class="navbar  navbar-expand-lg " data-aos="fade-down" >
+    <div class="container-fluid">
+      
+      <a class="navbar-brand p-3 text-danger" style="font-weight: bold; font-size: 35px; font-family: sans-serif;" href="Web-Development.html"><img src="Images/logo.png " style="width: 70px;" alt="image is not ">  Gaming-Web </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 " style="align-items: center; font-family: sans-serif;">
+          <li id="desgin" class="nav-item">
+            <a class="nav-link text-light "  href="index.html">Home</a>
+          </li>
+          <li id="desgin" class="nav-item ">
+            <a    class="nav-link text-light "  href="Games.html">Games</a>
+          </li>
+         
+          <li class="nav-item dropdown">
+            <a class="nav-link active text-light dropdown-toggle " style="font-weight: bold;"  aria-current="page"   href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu  " aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item     " href="Catergory.html#container-1">Kids</a></li>
+              <li><hr class="dropdown-divider bg-light"></li>
+              <li><a style="font-weight: bold;" class="dropdown-item" href="Catergory.html#container-2">Males</a></li>
+              <li><hr class="dropdown-divider bg-light"></li>
+              <li><a style="font-weight: bold;" class="dropdown-item" href="Catergory.html#container-3">Females</a></li>
+              <li><hr class="dropdown-divider bg-light"></li>
+              <li><a style="font-weight: bold;" class="dropdown-item" href="Catergory.html#container-4">Family Games</a></li>
+            </ul>
+          </li>
+          <li id="desgin" class="nav-item">
+            <a class="nav-link text-light" href="Feedback.html">Feedback</a>
+          </li>
+          <li id="desgin" class="nav-item ">
+            <a class="nav-link mx-4 text-light" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Login</a>
+          </li>
+         
+        </ul>
+       
+      </div>
+      
+    </div>
+    
+  </nav>
+  
+
+  <!-- Modal -->
+
+
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 style="margin-left: 40% ;" class="modal-title" id="staticBackdropLabel">Please Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="username">User Name</span>
+            <input type="text" class="form-control" placeholder="User Name" aria-label="uName" aria-describedby="uName">
+          </div>
+
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="email">Email</span>
+            <input type="text" class="form-control" placeholder="Email" aria-label="email" aria-describedby="email">
+          </div>
+
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="password">Password</span>
+            <input type="password" class="form-control" placeholder="Password" aria-label="password" aria-describedby="password">
+          </div>
+        </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" onclick="setData()">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- ------body---- -->
+
+<div id="container-1" class="container" >
+    <h1 style="font-weight: bold; ; text-align: center;  " class="text-light">Kids Games</h1>
+    <div class="row" style="border: 1px solid rgba(128, 128, 128, 0.411); border-radius: 5px; margin: 0; "   >
+      <div class="team col-lg-4 mt-3 col-md-4 col-sm-12"  >
+        <img id="image-responsive" src="Images/kids indoor/kid-1 edit.jpg" style="width: 210px;  height: 35vh;" alt="Image is Not Found" class="img-fluid">
+        <h5 id="kid-head" class="text-light">Kids Game-1</h5>
+        <a id="kids" href="singleProduct-Game.html">View More <i class="fa-solid fa-arrow-right-long"></i></a>
+    </div>
+      <div   class="team col-lg-4 mt-3 col-md-4 col-sm-12">
+        <img src="Images/kids indoor/kid-2 edit.jpg" style="width: 210px;  height: 35vh;" alt="Image is Not Found" class="img-fluid">
+        <h5 style="font-weight: bold;" class="text-light">Kids Game-2</h5>
+        <a  id="kids" href="singleProduct-Game.html">View More <i  class="fa-solid fa-arrow-right-long"></i></a>
+    </div>
+      <div class="team col-lg-4 mt-3 col-md-4 col-sm-12">
+        <img src="Images/kids indoor/kids-3 edit.jpg" style="width: 210px;  height: 35vh;" alt="Image is Not Found" class="img-fluid">
+        <h5 style="font-weight: bold;" class="text-light">Kids Game-3</h5>
+        <a id="kids" href="singleProduct-Game.html">View More <i class="fa-solid fa-arrow-right-long"></i></a>
+    </div>
+      <div class="team col-lg-4 mt-3 col-md-4 col-sm-12">
+        <img src="Images/kids indoor/kids -4 edit.jpg" style="width: 210px;  height: 35vh;" alt="Image is Not Found" class="img-fluid">
+        <h5 style="font-weight: bold;" class="text-light">Kids Game-4</h5>
+        <a id="kids" href="singleProduct-Game.html">View More <i class="fa-solid fa-arrow-right-long"></i></a>
+    </div>
+      <div class="team col-lg-4 mt-3 col-md-4 col-sm-12">
+        <img src="Images/kids indoor/kid-5 edit.jpg" style="width: 210px; height: 35vh;" alt="Image is Not Found" class="img-fluid">
+        <h5 style="font-weight: bold;" class="text-light">Kids Game-4</h5>
+        <a id="kids" href="singleProduct-Game.html">View More <i class="fa-solid fa-arrow-right-long"></i></a>
+    </div>
+    </div>
+  </div>
+<div id="container-2" class="container" >
+    <h1 style="font-weight: bold; margin-top: 100px; text-align: center;  " class="text-light">Males Games</h1>
+    <div class="row" style="border: 1px solid rgba(128, 128, 128, 0.411); border-radius: 5px;"  >
+      <div class="team col-lg-4 mt-3 col-md-4 col-sm-12"  >
+        <img src="Images/male indoor/male 1 edit.jpg" style="width: 210px; height: 35vh;"  alt="Image is Not Found" class="img-fluid">
+        <h5 style="font-weight: bold;" class="text-light">Kids Game-1</h5>
+        <a id="kids" href="singleProduct-Game.html">View More <i class="fa-solid fa-arrow-right-long"></i></a>
+    </div>
+      <div   class="team col-lg-4 mt-3 col-md-4 col-sm-12">
+        <img src="Images/male indoor/male 2 edit.jpg" style="width: 210px; height: 35vh;" alt="Image is Not Found" class="img-fluid">
+        <h5 style="font-weight: bold;" class="text-light">Kids Game-2</h5>
+        <a id="kids" href="singleProduct-Game.html">View More <i class="fa-solid fa-arrow-right-long"></i></a>
+    </div>
+      <div class="team col-lg-4 mt-3 col-md-4 col-sm-12">
+        <img src="Images/male indoor/male 3 edit.jpg" style="width: 210px; height: 35vh;" alt="Image is Not Found" class="img-fluid">
+        <h5 style="font-weight: bold;" class="text-light">Kids Game-3</h5>
+        <a id="kids" href="singleProduct-Game.html">View More <i class="fa-solid fa-arrow-right-long"></i></a>
+    </div>
+      <div class="team col-lg-4 mt-3 col-md-4 col-sm-12">
+        <img src="Images/male indoor/male 4 edit .jpg" style="width: 210px;height: 35vh;" alt="Image is Not Found" class="img-fluid">
+        <h5 style="font-weight: bold;" class="text-light">Kids Game-4</h5>
+        <a id="kids" href="singleProduct-Game.html">View More <i  class="fa-solid fa-arrow-right-long"></i></a>
+    </div>
+      <div class="team col-lg-4 mt-3 col-md-4 col-sm-12">
+        <img src="Images/male indoor/male 5 edit.jpg" style="width: 210px; height: 35vh;" alt="Image is Not Found" class="img-fluid">
+        <h5 style="font-weight: bold;" class="text-light">Kids Game-4</h5>
+        <a id="kids" href="singleProduct-Game.html">View More <i class="fa-solid fa-arrow-right-long"></i></a>  
+    </div>
+    </div>
+  </div>
+<div id="container-3" class="container" >
+    <h1 style="font-weight: bold; margin-top: 100px; text-align: center;  " class="text-light">Females Games</h1>
+    <div class="row" style="border: 1px solid rgba(128, 128, 128, 0.411); border-radius: 5px;"  >
+      <div class="team col-lg-4 mt-3 col-md-4 col-sm-12"  >
+        <img src="Images/female outdoor/femlae 1 edit.jpg" style="width: 210px;" alt="Image is Not Found" class="img-fluid">
+        <h5 style="font-weight: bold;" class="text-light">Kids Game-1</h5>
+        <a id="kids" href="singleProduct-Game.html">View More <i  class="fa-solid fa-arrow-right-long"></i></a>
+
+    </div>
+      <div   class="team col-lg-4 mt-3 col-md-4 col-sm-12">
+        <img src="Images/female outdoor/female 2 edit.jpg" style="width: 210px;" alt="Image is Not Found" class="img-fluid">
+        <h5 style="font-weight: bold;" class="text-light">Kids Game-2</h5>
+        <a id="kids" href="singleProduct-Game.html">View More <i  class="fa-solid fa-arrow-right-long"></i></a>
+
+    </div>
+      <div class="team col-lg-4 mt-3 col-md-4 col-sm-12">
+        <img src="Images/female outdoor/female 3 edit.jpg" style="width: 210px;" alt="Image is Not Found" class="img-fluid">
+        <h5 style="font-weight: bold;" class="text-light">Kids Game-3</h5>
+        <a id="kids" href="singleProduct-Game.html">View More <i  class="fa-solid fa-arrow-right-long"></i></a>
+
+    </div>
+      <div class="team col-lg-4 mt-3 col-md-4 col-sm-12">
+        <img src="Images/female outdoor/female 4 edit.jpg" style="width: 210px;" alt="Image is Not Found" class="img-fluid">
+        <h5 style="font-weight: bold;" class="text-light">Kids Game-4</h5>
+        <a id="kids" href="singleProduct-Game.html">View More <i  class="fa-solid fa-arrow-right-long"></i></a>
+
+    </div>
+      <div class="team col-lg-4 mt-3 col-md-4 col-sm-12">
+        <img src="Images/female outdoor/female 5 edit.jpg" style="width: 210px;" alt="Image is Not Found" class="img-fluid">
+        <h5 style="font-weight: bold;" class="text-light">Kids Game-4</h5>
+        <a id="kids" href="singleProduct-Game.html">View More <i  class="fa-solid fa-arrow-right-long"></i></a>
+
+    </div>
+    </div>
+  </div>
+<div id="container-4" class="container" >
+    <h1 style="font-weight: bold; margin-top: 100px; text-align: center;  " class="text-light">Family Games</h1>
+    <div class="row" style="border: 1px solid rgba(128, 128, 128, 0.411); border-radius: 5px;"  >
+      <div class="team col-lg-4 mt-3 col-md-4 col-sm-12"  >
+        <img src="Images/family Outdoor/family 1 edit.jpg" style="width: 210px;" alt="Image is Not Found" class="img-fluid">
+        <h5 style="font-weight: bold;" class="text-light">Kids Game-1</h5>
+        <a id="kids" href="singleProduct-Game.html">View More <i  class="fa-solid fa-arrow-right-long"></i></a>
+
+    </div>
+      <div   class="team col-lg-4 mt-3 col-md-4 col-sm-12">
+        <img src="Images/family Outdoor/family 2 edit.jpg " style="width: 210px;" alt="Image is Not Found" class="img-fluid">
+        <h5 style="font-weight: bold;" class="text-light">Kids Game-2</h5>
+        <a id="kids" href="singleProduct-Game.html">View More <i  class="fa-solid fa-arrow-right-long"></i></a>
+
+    </div>
+      <div class="team col-lg-4 mt-3 col-md-4 col-sm-12">
+        <img src="Images/family Outdoor/family 3 edit .jpg " style="width: 210px;" alt="Image is Not Found" class="img-fluid">
+        <h5 style="font-weight: bold;" class="text-light">Kids Game-3</h5>
+        <a id="kids" href="singleProduct-Game.html">View More <i  class="fa-solid fa-arrow-right-long"></i></a>
+
+    </div>
+      <div class="team col-lg-4 mt-3 col-md-4 col-sm-12">
+        <img src="Images/family Outdoor/family 4 edit.jpg" style="width: 210px;" alt="Image is Not Found" class="img-fluid">
+        <h5 style="font-weight: bold;" class="text-light">Kids Game-4</h5>
+        <a id="kids" href="singleProduct-Game.html">View More <i  class="fa-solid fa-arrow-right-long"></i></a>
+
+    </div>
+      <div class="team col-lg-4 mt-3 col-md-4 col-sm-12">
+        <img src="Images/family Outdoor/family 5 edit.jpg" style="width: 210px;" alt="Image is Not Found" class="img-fluid">
+        <h5 style="font-weight: bold;" class="text-light">Kids Game-4</h5>
+        <a id="kids" href="singleProduct-Game.html">View More <i  class="fa-solid fa-arrow-right-long"></i></a>
+
+    </div>
+    </div>
+  </div>
+
+  
+  
+  
+
+  <!-- <-----footer------ -->
+
+  
+  <footer  class="text-white pt-5 pb-2 mt-3"data-aos="fade-up">
+    <div class="container text-center text-md-left">
+      <div class="row text-center text-md-left">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        
+          <h2 class="text-uppercase mb-4 font-weight-bold text-danger" ><b>Gaming-Web</b></h2>
+          <p>If You Want to Buy the Online Things, so Please Contact me Ecomerce-Web is Best Web of Online Selling Website <br><b class="text-danger">Made By Anees Raza</b> </p>
+        </div>
+
+        <div style="text-align: left ;" class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h4 style="font-weight: bold;" class="text-uppercase mb-4  text-danger ">Main-Menu</h4>
+          <div   id="underline">
+          <p >
+            <a href="index.html" class="text-white"  style="text-decoration: none; "> Home</a>
+          </p>
+          <p>
+            <a href="Games.html"
+            class="text-white" style="text-decoration: none;" > Games</a>
+          </p>
+          <p>
+            <a href="Catergory.html"
+            class="text-danger active" aria-current="page" style="font-weight: bold; text-decoration: none;"> Categories</a>
+          </p>
+          <p>
+            <a href="Feedback.html"
+              class="text-white" style="text-decoration: none;">  Feedback</a>
+          </p>
+        </div>
+        </div>
+        <div style="text-align: left;" class="col-md-3 col-lg-3 col-xl-2 mx-auto mt-3">
+          <h4 style="font-weight: bold;" class="text-uppercase mb-4  text-danger">Address </h4>
+          <p style="cursor: pointer;">
+            <i  class="text-danger fas fa-home p-1"></i> Karachi,Pakistan
+          </p>
+          <p style="cursor: pointer;">
+            <i  class="text-danger fas fa-envelope  p-1"></i>  E-web@gmail.com
+          </p>
+          <p style="cursor: pointer;">
+            <i  class="text-danger fas fa-phone p-1">  </i>+92-3004627851
+          </p>
+          <p style="cursor: pointer;">
+            <i  class="text-danger fas fa-phone p-1"></i>+021-111-222-88
+          </p>
+        </div>
+       
+        <hr class="mb-4">
+        <p class="text-light text-center p-2" style="font-family: sans-serif; ">&copy; Copyright 2022 All rights reserved by:<strong> <a style="text-decoration: none; " class="text-danger" href="Web-Development.html">Anees-Raza</a> </strong>
+        
+        
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+    <script>
+      const setData = () => {
+        var uName = document.getElementById('username').value
+        alert(uName)
+        var data = localStorage.setItem('UserName', uName)
+        console.log(uName)
+      }
+    </script>
+<!-- ----Add To Card--- -->
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+  #kids{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100px;
+    
+
+  }
+  #kids:hover{
+    color: red; 
+    transition: 0.3s;
+    font-weight: 100px;
+  
+  }
+  #kid-head{
+    font-weight: bold;
+  }
+  #desgin ::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: red;
+    display: block;
+    margin: auto;
+  transition: 0.5s;
+}
+
+#desgin :hover::after{
+    width: 100%;
+}
+::after {
+  color: red;
+}
+nav.navbar.navbar-expand-lg.aos-init.aos-animate {
+  padding: 0;
+}
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+background: maroon;
+border-radius: 8px; 
+}
+
+
+::-webkit-scrollbar-track {
+  background:black;
+  
+}

@@ -1,0 +1,254 @@
+                                             /* <----Game-CSS---> */
+                                             
+
+
+
+                                                    /* ------Style For Home------- */
+/* -------Home-Navbar------- */
+*{
+    font-family: sans-serif;
+  }
+  .navbar{
+      background: rgba(0, 0, 0, 0.698);
+    }
+    body{
+      background: url(Images/bg\ img.jpg);
+      background-attachment: fixed;
+  
+    }
+    footer{
+      background: rgba(0, 0, 0, 0.850);
+    }
+    .container.text-center.text-md-left {
+      padding-bottom: 0;
+      padding-top: 0;
+  }
+  #btn-1{
+    clip-path: polygon(0 0, 71% 0, 100% 100%, 0 99%);
+    width: 300px;
+    height: 10vh;
+    padding-left: 20px;
+    margin-left: 100px;
+    border-radius:15px ;
+    font-size: 1.3rem;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    background-color: red;
+  }
+  #btn-1:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+    background-color: maroon;
+  }
+  .img-1:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .img-1{
+    margin-left: 250px;
+  }
+  #first-div{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(Images/pexels-lucie-liz-3165335.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    margin-top: -10px;
+  }
+  #first-col{
+    align-items: center;
+    margin-left: 100px;
+    
+   }
+   a.navbar-brand.p-3.text-danger{
+    font-weight: bold;
+    font-size: 35px;
+   }
+   #nav-logo{
+    width: 70px;
+   }
+   a.nav-link.active.text-danger {
+    font-weight: bold;
+}
+a.dropdown-item {
+    color: #fff;
+}
+a.dropdown-item {
+    font-weight: bold;
+}
+ul.dropdown-menu.show {
+    background: rgba(0, 0, 0, 0.698);
+}
+ 
+  
+
+               /* ------Home-Body------- */
+
+/* ---For-Slider--- */
+img.d-block.w-100 {
+    height: 120vh;
+     }
+     video.bg-video.w-100 {
+        height: 115vh;
+    }
+    span.bg-danger.carousel-control-prev-icon {
+        border-radius: 100%;
+        width: 25%;
+        height: 7%;
+    }
+    span.bg-danger.carousel-control-next-icon {
+        border-radius: 100%;
+        width: 25%;
+        height: 7%;
+    }
+
+    span#home-span {
+        color: red;
+    }
+
+    h1.text-light {
+        margin-top: 200px;
+        font-size: 47px;
+        font-weight: bolder; 
+        text-align: center; 
+    }
+    p.text-light {
+        text-align: center; 
+        font-size: 18px;
+    }
+    p#s-txt {
+        text-align: center;
+         font-size: 19px;
+    }
+    span#dollar {
+        color: greenyellow;
+    }
+  
+
+    
+
+
+
+
+/* ------Home-Footer---- */
+
+a.text-danger.active{
+    text-decoration: none;
+    font-weight: bold;
+}
+h4.text-uppercase.mb-4.text-danger {
+    font-weight: bold;
+}
+.col-md-3.col-lg-3.col-xl-3.mx-auto.mt-3{
+    text-align: left ;
+}
+.col-md-3.col-lg-3.col-xl-2.mx-auto.mt-3 {
+    text-align: left;
+}
+a.text-danger {
+    text-decoration: none;
+}
+                                                    /* -----Home-End----- */
+
+
+
+
+
+
+
+                                                     /* ------Style For Categories------- */
+/* -------Categories-Navbar------- */
+               /* ------Categories-Body------- */
+/* ------Categories-Footer---- */
+
+
+
+
+                                                     /* ------Style For Feedback------- */
+/* -------Feedback-Navbar------- */
+               /* ------Feedback-Body------- */
+/* ------Feedback-Footer---- */
+
+
+
+
+/* ------Style For SingleProduct Page For Categories------- */
+/* -------SingleProduct Page For Categories-Navbar------- */
+/* ------SingleProduct Page For Categories-Body------- */
+/* ------SingleProduct Page For Categories-Footer---- */
+
+
+
+/* ----Animation-- */
+.bubbles img{
+    width: 50px;
+    animation-name: bubbles;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+.bubbles{
+  
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -150%;
+}
+@keyframes bubbles {
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    25%{
+        
+        opacity: 1;
+    }
+    50%{
+        
+        opacity: 1;
+    }
+    70%{
+       
+        opacity: 1;
+    }
+    75%{
+       
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-200vh);
+        opacity: 0;
+    }
+
+    
+}
+.bubbles img:nth-child(1){
+    animation-delay: 2s;
+    width: 25px;
+}
+.bubbles img:nth-child(2){
+    animation-delay: 1s;
+}
+.bubbles img:nth-child(3){
+    animation-delay: 3s;
+    width: 25px;
+}
+.bubbles img:nth-child(4){
+    animation-delay: 4.5s;
+    
+}
+.bubbles img:nth-child(5){
+    animation-delay: 3s;
+   
+}
+.bubbles img:nth-child(6){
+    animation-delay: 6s;
+    width: 20px;
+}
+.bubbles img:nth-child(7){
+    animation-delay: 7s;
+    width: 40px;
+}
